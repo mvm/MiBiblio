@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/textDateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_date"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01/01/2020"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_rating"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/textFieldComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_comments"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentario de ejemplo..."
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8sp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>

@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">MiBiblio</string>
+    <string name="tab_text_1">Lista libros</string>
+    <string name="tab_text_2">Acciones</string>
+
+    <!-- Action (operations) names -->
+    <string name="action_book_manual">Añadir libro manualmente</string>
+    <string name="action_book_scan">Leer libro de ca&#769;mara</string>
+    <string name="action_search_local">Buscar en biblioteca</string>
+    <string name="action_search_net">Buscar en Internet</string>
+    <string name="action_reg_reading">Registrar lectura</string>
+    <string name="action_view_reading">Ver lecturas</string>
+    <string name="action_reg_loan">Registrar pre&#769;stamo</string>
+    <string name="action_view_loan">Ver pre&#769;stamos</string>
+    <string name="action_reg_devol">Devolver libro</string>
+    <string name="action_eximport">Exportar/Importar</string>
+    <string name="action_report">Generar informe</string>
+    <string name="action_settings">Preferencias</string>
+
+    <!-- Activity to add a book manually -->
+    <string name="title_activity_book_add">BookAddActivity</string>
+    <string name="field_title">Ti&#769;tulo:</string>
+    <string name="hint_title">Titulo del libro...</string>
+    <string name="field_author">Autor (apellidos, nombre):</string>
+    <string name="hint_author">Autor del libro...</string>
+    <string name="button_cover">Portada</string>
+    <string name="field_publisher">Editorial:</string>
+    <string name="hint_publisher">Editorial...</string>
+    <string name="field_edition">Edicion:</string>
+    <string name="hint_edition">Edicion...</string>
+    <string name="field_isbn">ISBN:</string>
+    <string name="hint_isbn">ISBN...</string>
+    <string name="field_pages">Numero de paginas:</string>
+    <string name="hint_pages">Paginas...</string>
+    <string name="field_price">Precio:</string>
+    <string name="hint_price">Precio de compra...</string>
+    <string name="field_date_bought">Fecha de compra (año):</string>
+    <string name="hint_date_bought">Fecha de compra...</string>
+    <string name="field_comments">Comentarios:</string>
+    <string name="hint_comments">Sus comentarios...</string>
+    <string name="hint_name">Nombre de prestador...</string>
+    <string name="text_name">Nombre de prestador:</string>
+    <string name="field_date">Fecha (YYYY):</string>
+    <string name="field_rating">Valoracion:</string>
+    <string name="field_language">Idioma:</string>
+    <string name="hint_language">Idioma...</string>
+    <string name="field_year_published">Fecha de publicacion (año):</string>
+    <string name="hint_year_published">Fecha de publicacion...</string>
+
+    <string name="button_save">Guardar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_search">Buscar</string>
+
+    <string name="dialog_expimp_title">Exportar/Importar</string>
+    <string name="dialog_expimp_msg">Escoja si quiere importar o exportar coleccion.</string>
+    <string name="dialog_expimp_subsmsg">Substituir toda la coleccion.</string>
+    <string name="dialog_expimp_export">Exportar</string>
+    <string name="dialog_expimp_import">Importar</string>
+    <string name="dialog_expimp_cancel">Cancelar</string>
+
+    <string name="dialog_crecol_title">Crear coleccion</string>
+    <string name="dialog_crecol_msg">Nombre de coleccion:</string>
+    <string name="dialog_crecol_create">Crear</string>
+    <string name="dialog_crecol_cancel">Cancelar</string>
+
+    <string name="dialog_opecol_title">Abrir coleccion</string>
+    <string name="dialog_opecol_msg">Escoger coleccion a abrir:</string>
+    <string name="dialog_opecol_open">Abrir</string>
+    <string name="dialog_opecol_cancel">Cancelar</string>
+
+    <string name="menu_delete">Borrar libro</string>
+    <string name="menu_prefs">Editar preferencias</string>
+    <string name="menu_create_col">Crear coleccion</string>
+    <string name="menu_open_col">Abrir coleccion</string>
+    <string name="settings_export">Formato de exportacion:</string>
+    <string name="settings_report">Formato de informe:</string>
+    <string name="settings_search">Base de datos de libros:</string>
+    <string name="settings_sort">Campo por el que ordenar libros:</string>
+
+    <string name="report_colname">Coleccion %1$s</string>
+    <string name="report_booknum">%1$s libros en coleccion</string>
+    <string name="report_authornum">%1$s autores en coleccion</string>
+
+    <string name="booklist_empty">Ningun libro encontrado.</string>
+    <string name="collection_created">Coleccion creada.</string>
+    <string name="collection_opened">Coleccion abierta.</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_reading">Lectura</string>
+    <string name="button_loan">Prestamo</string>
+
+    <string name="addbook_msg">Quiere añadir el libro a la coleccion?</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="delbook_msg">Quiere borrar este libro?</string>
+    <string name="genreport_msg">Informe generado correctamente.</string>
+    <string name="switch_cover">Mostrar portada en listado libros</string>
+
+    <string name="returnbook_msg">Libro devuelto!</string>
+    <string name="export_failed_msg">Exportacion fallida: </string>
+    <string name="import_failed_msg">Importacion fallida: </string>
+    <string name="report_failed_msg">Informe erroneo: </string>
+
+    <string name="title_empty_error">Titulo no puede ser vacio</string>
+    <string name="author_empty_error">Autor no puede ser vacio</string>
+    <string name="isbn_incorrect_error">ISBN incorrecto</string>
+    <string name="date_bought_error">Fecha de compra incorrecta</string>
+    <string name="date_pub_error">Fecha de publicacion incorrecta</string>
+    <string name="comment_error">Comentario mayor que 512 caracteres</string>
+    <string name="search_error">Ningun campo rellenado</string>
+    <string name="borrower_error">Ningun prestador incluido</string>
+    <string name="create_col_error">Coleccion ya existe</string>
+
+    <string name="report_title">Título</string>
+    <string name="report_author">Autor(es)</string>
+    <string name="report_publisher">Editorial</string>
+    <string name="report_isbn">ISBN</string>
+    <string name="report_pages">Num. págs.</string>
+
+    <string name="check_import_serial">Importar libros en serie</string>
+    <string name="barcode_bookread">Libro %s añadido</string>
+</resources>

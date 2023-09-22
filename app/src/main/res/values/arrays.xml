@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exportFormats">
+        <item value="xml">XML</item>
+    </string-array>
+    <string-array name="reportFormats">
+        <item value="html">HTML</item>
+    </string-array>
+    <string-array name="searchSites">
+        <item value="googlebooks">Google Books</item>
+    </string-array>
+
+    <string-array name="sortSettings">
+        <item value="title">Titulo</item>
+        <item value="author">Autor</item>
+    </string-array>
+</resources>

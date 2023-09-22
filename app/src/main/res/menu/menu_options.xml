@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:visible="true">
+        <item
+            android:id="@+id/menu_create_col"
+            android:title="@string/menu_create_col" />
+        <item
+            android:id="@+id/menu_open_col"
+            android:title="@string/menu_open_col" />
+    </group>
+</menu>

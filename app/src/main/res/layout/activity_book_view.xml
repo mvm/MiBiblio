@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BookViewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/coverView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:maxWidth="64dp"
+                android:maxHeight="64dp"
+                android:minWidth="64dp"
+                android:minHeight="64dp"
+                android:padding="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Ejemplo título"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ejemplo autor" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_edit" />
+
+            <Button
+                android:id="@+id/buttonReading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_reading" />
+
+            <Button
+                android:id="@+id/buttonLoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_loan" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textFieldPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_publisher" />
+
+        <TextView
+            android:id="@+id/textPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ediciones Ejemplo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldEdition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_edition" />
+
+        <TextView
+            android:id="@+id/textEdition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2nd Edition"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_isbn" />
+
+        <TextView
+            android:id="@+id/textISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1234567890"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldPages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_pages" />
+
+        <TextView
+            android:id="@+id/textPages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="200 pages"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_language" />
+
+        <TextView
+            android:id="@+id/textLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_date_bought" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01/01/2020"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFieldYearPublished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_year_published" />
+
+        <TextView
+            android:id="@+id/textYearPublished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2020/01/01"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_rating" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/textFieldComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_comments" />
+
+        <TextView
+            android:id="@+id/textComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comments here..."
+            android:textSize="18sp" />
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

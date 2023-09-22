@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/textDateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_date" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01/01/2020"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name" />
+
+    <TextView
+        android:id="@+id/fieldName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miguel Vicente"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textFieldComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_comments" />
+
+    <TextView
+        android:id="@+id/textComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentario de ejemplo..."
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>
